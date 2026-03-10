@@ -1,0 +1,7 @@
+*.csv
+*.docx
+documents/
+node_modules/
+scripts/
+.DS_Store
+Thumbs.db

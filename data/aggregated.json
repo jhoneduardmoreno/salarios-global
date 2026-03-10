@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "total_registros": 27101,
+    "paises": 88,
+    "industrias": 22,
+    "fuente": "Ask A Manager Salary Survey 2021",
+    "moneda": "COP (Pesos Colombianos)",
+    "salario_promedio_global": 315197886,
+    "salario_mediano_global": 276562550
+  },
+  "salario_por_pais": [
+    {
+      "pais": "Switzerland",
+      "iso_alpha": "CHE",
+      "promedio": 499536563,
+      "mediana": 497088300,
+      "count": 36
+    },
+    {
+      "pais": "Denmark",
+      "iso_alpha": "DNK",
+      "promedio": 392120610,
+      "mediana": 412912500,
+      "count": 9
+    },
+    {
+      "pais": "Luxembourg",
+      "iso_alpha": "LUX",
+      "promedio": 417210127,
+      "mediana": 398246030,
+      "count": 3
+    },
+    {
+      "pais": "Israel",
+      "iso_alpha": "ISR",
+      "promedio": 460933688,
+      "mediana": 356606250,
+      "count": 7
+    },
+    {
+      "pais": "Brazil",
+      "iso_alpha": "BRA",
+      "promedio": 348348000,
+      "mediana": 343843500,
+      "count": 4
+    },
+    {
+      "pais": "Mexico",
+      "iso_alpha": "MEX",
+      "promedio": 357544688,
+      "mediana": 330330000,
+      "count": 4
+    },
+    {
+      "pais": "Ghana",
+      "iso_alpha": "GHA",
+      "promedio": 269122604,
+      "mediana": 309995936,
+      "count": 3
+    },
+    {
+      "pais": "United States",
+      "iso_alpha": "USA",
+      "promedio": 330417373,
+      "mediana": 292792500,
+      "count": 22537
+    },
+    {
+      "pais": "Germany",
+      "iso_alpha": "DEU",
+      "promedio": 288030082,
+      "mediana": 284461450,
+      "count": 185
+    },
+    {
+      "pais": "China",
+      "iso_alpha": "CHN",
+      "promedio": 356063305,
+      "mediana": 262762500,
+      "count": 5
+    },
+    {
+      "pais": "Netherlands",
+      "iso_alpha": "NLD",
+      "promedio": 270106776,
+      "mediana": 258203470,
+      "count": 88
+    },
+    {
+      "pais": "Australia",
+      "iso_alpha": "AUS",
+      "promedio": 261992554,
+      "mediana": 239598836,
+      "count": 380
+    },
+    {
+      "pais": "Belgium",
+      "iso_alpha": "BEL",
+      "promedio": 282571179,
+      "mediana": 237372139,
+      "count": 34
+    },
+    {
+      "pais": "Austria",
+      "iso_alpha": "AUT",
+      "promedio": 235317838,
+      "mediana": 229757325,
+      "count": 17
+    },
+    {
+      "pais": "New Zealand",
+      "iso_alpha": "NZL",
+      "promedio": 251537381,
+      "mediana": 223679231,
+      "count": 126
+    },
+    {
+      "pais": "Kenya",
+      "iso_alpha": "KEN",
+      "promedio": 163913750,
+      "mediana": 210210000,
+      "count": 3
+    },
+    {
+      "pais": "Canada",
+      "iso_alpha": "CAN",
+      "promedio": 225464490,
+      "mediana": 209239400,
+      "count": 1648
+    },
+    {
+      "pais": "Singapore",
+      "iso_alpha": "SGP",
+      "promedio": 314939625,
+      "mediana": 206456250,
+      "count": 5
+    },
+    {
+      "pais": "Sweden",
+      "iso_alpha": "SWE",
+      "promedio": 231214544,
+      "mediana": 205524730,
+      "count": 38
+    },
+    {
+      "pais": "Romania",
+      "iso_alpha": "ROU",
+      "promedio": 211034050,
+      "mediana": 205381505,
+      "count": 6
+    },
+    {
+      "pais": "United Kingdom",
+      "iso_alpha": "GBR",
+      "promedio": 239430672,
+      "mediana": 201136400,
+      "count": 1668
+    },
+    {
+      "pais": "France",
+      "iso_alpha": "FRA",
+      "promedio": 214227155,
+      "mediana": 196934850,
+      "count": 65
+    },
+    {
+      "pais": "Thailand",
+      "iso_alpha": "THA",
+      "promedio": 165790625,
+      "mediana": 189564375,
+      "count": 3
+    },
+    {
+      "pais": "Finland",
+      "iso_alpha": "FIN",
+      "promedio": 184764950,
+      "mediana": 175053200,
+      "count": 13
+    },
+    {
+      "pais": "Hong Kong",
+      "iso_alpha": "HKG",
+      "promedio": 186157994,
+      "mediana": 168518610,
+      "count": 6
+    },
+    {
+      "pais": "South Africa",
+      "iso_alpha": "ZAF",
+      "promedio": 180548969,
+      "mediana": 158686200,
+      "count": 17
+    },
+    {
+      "pais": "Philippines",
+      "iso_alpha": "PHL",
+      "promedio": 226726500,
+      "mediana": 157657500,
+      "count": 5
+    },
+    {
+      "pais": "Puerto Rico",
+      "iso_alpha": "",
+      "promedio": 180180000,
+      "mediana": 153903750,
+      "count": 4
+    },
+    {
+      "pais": "Spain",
+      "iso_alpha": "ESP",
+      "promedio": 197153999,
+      "mediana": 153828000,
+      "count": 46
+    },
+    {
+      "pais": "Italy",
+      "iso_alpha": "ITA",
+      "promedio": 205291935,
+      "mediana": 146607055,
+      "count": 16
+    },
+    {
+      "pais": "Japan",
+      "iso_alpha": "JPN",
+      "promedio": 172896834,
+      "mediana": 125299125,
+      "count": 26
+    },
+    {
+      "pais": "Portugal",
+      "iso_alpha": "PRT",
+      "promedio": 219460676,
+      "mediana": 116410378,
+      "count": 5
+    },
+    {
+      "pais": "Latvia",
+      "iso_alpha": "LVA",
+      "promedio": 128459873,
+      "mediana": 113784580,
+      "count": 3
+    },
+    {
+      "pais": "Nigeria",
+      "iso_alpha": "NGA",
+      "promedio": 284202043,
+      "mediana": 98329481,
+      "count": 4
+    },
+    {
+      "pais": "Colombia",
+      "iso_alpha": "COL",
+      "promedio": 94969875,
+      "mediana": 75075000,
+      "count": 4
+    },
+    {
+      "pais": "Greece",
+      "iso_alpha": "GRC",
+      "promedio": 95403994,
+      "mediana": 73522344,
+      "count": 5
+    },
+    {
+      "pais": "India",
+      "iso_alpha": "IND",
+      "promedio": 134744610,
+      "mediana": 45045000,
+      "count": 5
+    },
+    {
+      "pais": "Pakistan",
+      "iso_alpha": "PAK",
+      "promedio": 118974356,
+      "mediana": 41291250,
+      "count": 5
+    }
+  ],
+  "salario_por_continente": [
+    {
+      "continente": "America",
+      "promedio": 323174098,
+      "mediana": 281531250,
+      "count": 24214
+    },
+    {
+      "continente": "Oceania",
+      "promedio": 259389092,
+      "mediana": 235331173,
+      "count": 506
+    },
+    {
+      "continente": "Europe",
+      "promedio": 247432814,
+      "mediana": 211193220,
+      "count": 2258
+    },
+    {
+      "continente": "Asia",
+      "promedio": 220178181,
+      "mediana": 160927560,
+      "count": 86
+    },
+    {
+      "continente": "Africa",
+      "promedio": 214886628,
+      "mediana": 185133900,
+      "count": 37
+    }
+  ],
+  "salario_por_nivel_educativo": [
+    {
+      "nivel": "Professional degree (MD, JD, etc.)",
+      "promedio": 440311353,
+      "mediana": 397897500,
+      "count": 1218
+    },
+    {
+      "nivel": "PhD",
+      "promedio": 374216574,
+      "mediana": 337837500,
+      "count": 1370
+    },
+    {
+      "nivel": "Master's degree",
+      "promedio": 321341210,
+      "mediana": 287161875,
+      "count": 8637
+    },
+    {
+      "nivel": "College degree",
+      "promedio": 304285663,
+      "mediana": 262800038,
+      "count": 13227
+    },
+    {
+      "nivel": "Some college",
+      "promedio": 264053695,
+      "mediana": 225225000,
+      "count": 2028
+    },
+    {
+      "nivel": "High School",
+      "promedio": 253608022,
+      "mediana": 202896928,
+      "count": 621
+    }
+  ],
+  "distribucion_nivel_jerarquico": [
+    {
+      "nivel": "Individual Contributor",
+      "count": 18311,
+      "porcentaje": 67.6
+    },
+    {
+      "nivel": "Manager",
+      "count": 4907,
+      "porcentaje": 18.1
+    },
+    {
+      "nivel": "Senior Manager",
+      "count": 199,
+      "porcentaje": 0.7
+    },
+    {
+      "nivel": "Director",
+      "count": 2337,
+      "porcentaje": 8.6
+    },
+    {
+      "nivel": "VP",
+      "count": 139,
+      "porcentaje": 0.5
+    },
+    {
+      "nivel": "C-Level",
+      "count": 231,
+      "porcentaje": 0.9
+    },
+    {
+      "nivel": "Lead",
+      "count": 977,
+      "porcentaje": 3.6
+    }
+  ],
+  "salario_por_nivel_jerarquico": [
+    {
+      "nivel": "VP",
+      "promedio": 580509057,
+      "mediana": 563062500,
+      "count": 139
+    },
+    {
+      "nivel": "C-Level",
+      "promedio": 517295716,
+      "mediana": 506579600,
+      "count": 231
+    },
+    {
+      "nivel": "Senior Manager",
+      "promedio": 473645295,
+      "mediana": 450450000,
+      "count": 199
+    },
+    {
+      "nivel": "Director",
+      "promedio": 411838764,
+      "mediana": 375375000,
+      "count": 2337
+    },
+    {
+      "nivel": "Manager",
+      "promedio": 334627364,
+      "mediana": 301704600,
+      "count": 4907
+    },
+    {
+      "nivel": "Lead",
+      "promedio": 328926495,
+      "mediana": 292792500,
+      "count": 977
+    },
+    {
+      "nivel": "Individual Contributor",
+      "promedio": 290639046,
+      "mediana": 251501250,
+      "count": 18311
+    }
+  ],
+  "salario_por_industria": [
+    {
+      "industria": "Tech",
+      "promedio": 432916747,
+      "mediana": 412912500,
+      "count": 4547
+    },
+    {
+      "industria": "Pharma/Biotech",
+      "promedio": 414162984,
+      "mediana": 383674541,
+      "count": 243
+    },
+    {
+      "industria": "Legal/Security",
+      "promedio": 375118042,
+      "mediana": 319068750,
+      "count": 1063
+    },
+    {
+      "industria": "Consulting",
+      "promedio": 360137107,
+      "mediana": 325825500,
+      "count": 861
+    },
+    {
+      "industria": "Manufacturing/Industrial",
+      "promedio": 338075500,
+      "mediana": 319068750,
+      "count": 2163
+    },
+    {
+      "industria": "Finance",
+      "promedio": 315896518,
+      "mediana": 281531250,
+      "count": 2282
+    },
+    {
+      "industria": "Healthcare",
+      "promedio": 312649589,
+      "mediana": 277777500,
+      "count": 1907
+    },
+    {
+      "industria": "Media/Marketing",
+      "promedio": 302531922,
+      "mediana": 265765500,
+      "count": 1963
+    },
+    {
+      "industria": "Government",
+      "promedio": 292117132,
+      "mediana": 266785900,
+      "count": 1922
+    },
+    {
+      "industria": "HR/Recruiting",
+      "promedio": 286492490,
+      "mediana": 261477320,
+      "count": 449
+    },
+    {
+      "industria": "Arts/Entertainment",
+      "promedio": 282637440,
+      "mediana": 251501250,
+      "count": 619
+    },
+    {
+      "industria": "Transport/Logistics",
+      "promedio": 276924666,
+      "mediana": 250938188,
+      "count": 303
+    },
+    {
+      "industria": "Sales",
+      "promedio": 276041494,
+      "mediana": 242139494,
+      "count": 280
+    },
+    {
+      "industria": "Science/Research",
+      "promedio": 268768588,
+      "mediana": 230855625,
+      "count": 152
+    },
+    {
+      "industria": "Other",
+      "promedio": 263981852,
+      "mediana": 232732500,
+      "count": 563
+    },
+    {
+      "industria": "Construction/RealEstate",
+      "promedio": 262460119,
+      "mediana": 234421688,
+      "count": 486
+    },
+    {
+      "industria": "Nonprofit",
+      "promedio": 262152391,
+      "mediana": 234017750,
+      "count": 2389
+    },
+    {
+      "industria": "Agriculture/Environment",
+      "promedio": 248053273,
+      "mediana": 206456250,
+      "count": 196
+    },
+    {
+      "industria": "Education",
+      "promedio": 239633146,
+      "mediana": 225225000,
+      "count": 3525
+    },
+    {
+      "industria": "Tourism/Sports",
+      "promedio": 233905830,
+      "mediana": 202702500,
+      "count": 98
+    },
+    {
+      "industria": "Retail/Hospitality",
+      "promedio": 219692312,
+      "mediana": 187687500,
+      "count": 824
+    },
+    {
+      "industria": "Social Work",
+      "promedio": 207465424,
+      "mediana": 198948750,
+      "count": 266
+    }
+  ],
+  "salario_por_experiencia": [
+    {
+      "rango": "1 year or less",
+      "promedio": 220618371,
+      "mediana": 195195000,
+      "count": 515
+    },
+    {
+      "rango": "2 - 4 years",
+      "promedio": 243561828,
+      "mediana": 213963750,
+      "count": 2924
+    },
+    {
+      "rango": "5-7 years",
+      "promedio": 276935506,
+      "mediana": 243993750,
+      "count": 4724
+    },
+    {
+      "rango": "8 - 10 years",
+      "promedio": 307201333,
+      "mediana": 270270000,
+      "count": 5199
+    },
+    {
+      "rango": "11 - 20 years",
+      "promedio": 343913602,
+      "mediana": 305930625,
+      "count": 9280
+    },
+    {
+      "rango": "21 - 30 years",
+      "promedio": 366406846,
+      "mediana": 326576250,
+      "count": 3507
+    },
+    {
+      "rango": "31 - 40 years",
+      "promedio": 352384101,
+      "mediana": 319068750,
+      "count": 832
+    },
+    {
+      "rango": "41 years or more",
+      "promedio": 344258225,
+      "mediana": 320945625,
+      "count": 120
+    }
+  ],
+  "salario_por_genero": [
+    {
+      "genero": "Woman",
+      "promedio": 300467991,
+      "mediana": 266516250,
+      "count": 20808
+    },
+    {
+      "genero": "Man",
+      "promedio": 381855531,
+      "mediana": 341591250,
+      "count": 5288
+    },
+    {
+      "genero": "Non-binary",
+      "promedio": 251729205,
+      "mediana": 211170829,
+      "count": 730
+    },
+    {
+      "genero": "Other or prefer not to answer",
+      "promedio": 316406040,
+      "mediana": 281531250,
+      "count": 274
+    }
+  ]
+}

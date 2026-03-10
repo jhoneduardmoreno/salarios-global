@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salarios Globales | DataLytics 2026</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">DataLytics 2026</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#mapa">Mapa</a></li>
+      <li><a href="#continentes">Continentes</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#jerarquia">Jerarquía</a></li>
+      <li><a href="#industrias">Industrias</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#genero">Género</a></li>
+      <li><a href="#conclusiones">Conclusiones</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Salarios Globales</h1>
+      <p class="hero-subtitle">Un Viaje por los Datos</p>
+      <p class="hero-question">¿Cómo se comportan los salarios a nivel global según el nivel jerárquico del cargo, la industria y la experiencia profesional?</p>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number" data-target="27120">0</span>
+          <span class="stat-label">Registros</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="38">0</span>
+          <span class="stat-label">Países</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="22">0</span>
+          <span class="stat-label">Industrias</span>
+        </div>
+      </div>
+      <p class="hero-credit">DataLytics 2026 — Maestría en Inteligencia Artificial</p>
+    </div>
+  </section>
+
+  <!-- Sección 1: Mapa -->
+  <section class="section section-dark" id="mapa">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">01</span>
+        <h2>El panorama mundial</h2>
+        <p class="section-desc">Salario mediano anual por país, convertido a pesos colombianos (COP). Pase el cursor sobre cada país para ver detalles.</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-mapa" class="chart-container chart-large"></div>
+      </div>
+      <div class="insight fade-in">
+        <strong>Nota:</strong> El 83% de los registros provienen de Estados Unidos. Los datos de otros países pueden no ser representativos debido al tamaño de muestra.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 2: Continentes -->
+  <section class="section" id="continentes">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">02</span>
+        <h2>Continentes en comparación</h2>
+        <p class="section-desc">¿En qué regiones del mundo se concentran los salarios más altos?</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-continentes" class="chart-container"></div>
+      </div>
+      <div class="insight fade-in">
+        La muestra refleja principalmente el mercado laboral anglosajón. América lidera impulsada por EE.UU., seguida de Oceanía (Australia y Nueva Zelanda).
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3: Educación -->
+  <section class="section section-dark" id="educacion">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">03</span>
+        <h2>¿La educación paga?</h2>
+        <p class="section-desc">Relación entre el nivel educativo y el salario promedio anual.</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-educacion" class="chart-container"></div>
+      </div>
+      <div class="insight fade-in">
+        Los títulos profesionales (MD, JD) y doctorados muestran los salarios más altos. La diferencia entre maestría y pregrado es significativa.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 4: Jerarquía -->
+  <section class="section" id="jerarquia">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">04</span>
+        <h2>La pirámide corporativa</h2>
+        <p class="section-desc">¿Cómo se distribuyen los roles y cuánto ganan en cada nivel?</p>
+      </div>
+      <div class="chart-grid fade-in">
+        <div class="chart-card">
+          <h3 class="chart-title">Distribución por nivel</h3>
+          <div id="chart-jerarquia-donut" class="chart-container"></div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Salario por nivel</h3>
+          <div id="chart-jerarquia-barras" class="chart-container"></div>
+        </div>
+      </div>
+      <div class="insight fade-in">
+        Los contribuidores individuales representan ~68% de la muestra. Sin embargo, los cargos de VP y C-Level ganan en promedio más del doble.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 5: Industrias -->
+  <section class="section section-dark" id="industrias">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">05</span>
+        <h2>Industrias que mejor pagan</h2>
+        <p class="section-desc">Top industrias ordenadas por salario promedio anual en COP.</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-industrias" class="chart-container chart-tall"></div>
+      </div>
+      <div class="insight fade-in">
+        Tecnología, Legal/Seguridad y Consultoría lideran la tabla. Las industrias creativas y sin ánimo de lucro se ubican en los últimos lugares.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 6: Experiencia -->
+  <section class="section" id="experiencia">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">06</span>
+        <h2>Experiencia y salario</h2>
+        <p class="section-desc">¿Más años de experiencia siempre significan más salario?</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-experiencia" class="chart-container"></div>
+      </div>
+      <div class="insight fade-in">
+        El salario crece consistentemente con la experiencia, pero parece alcanzar un techo a partir de los 21-30 años.
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 7: Género -->
+  <section class="section section-dark" id="genero">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">07</span>
+        <h2>Brecha de género</h2>
+        <p class="section-desc">Comparación salarial entre géneros reportados en la encuesta.</p>
+      </div>
+      <div class="chart-card fade-in">
+        <div id="chart-genero" class="chart-container"></div>
+      </div>
+      <div class="insight fade-in">
+        <strong>Contexto:</strong> El 77% de los encuestados se identifican como mujeres. Los hombres reportan salarios promedio superiores en esta muestra.
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusiones -->
+  <section class="section section-conclusions" id="conclusiones">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Conclusiones</h2>
+      </div>
+      <div class="conclusions-grid fade-in">
+        <div class="conclusion-card">
+          <div class="conclusion-icon">&#127760;</div>
+          <h3>Dominio anglosajón</h3>
+          <p>EE.UU. concentra el 83% de los datos. Los salarios en América y Oceanía lideran la muestra global.</p>
+        </div>
+        <div class="conclusion-card">
+          <div class="conclusion-icon">&#127891;</div>
+          <h3>La educación importa</h3>
+          <p>Títulos avanzados (PhD, profesional) correlacionan con salarios significativamente más altos.</p>
+        </div>
+        <div class="conclusion-card">
+          <div class="conclusion-icon">&#128200;</div>
+          <h3>Jerarquía = salario</h3>
+          <p>C-Level y VP ganan más del doble que un contribuidor individual promedio.</p>
+        </div>
+        <div class="conclusion-card">
+          <div class="conclusion-icon">&#128337;</div>
+          <h3>Techo salarial</h3>
+          <p>El crecimiento salarial por experiencia se desacelera notablemente después de 20+ años.</p>
+        </div>
+      </div>
+      <div class="methodology fade-in">
+        <h3>Nota metodológica</h3>
+        <p><strong>Fuente:</strong> Ask A Manager Salary Survey 2021 (27,120 registros)</p>
+        <p><strong>Moneda:</strong> Todos los salarios convertidos a COP usando tasas de cambio del dataset</p>
+        <p><strong>Sesgo:</strong> Encuesta voluntaria, mayoritariamente mujeres (77%) y residentes en EE.UU. (83%). Los resultados no son generalizables a toda la población laboral mundial.</p>
+        <p><strong>Filtros:</strong> Se excluyeron registros sin salario válido en COP o sin información de continente.</p>
+      </div>
+      <div class="team fade-in">
+        <h3>Equipo DataLytics 2026</h3>
+        <p>Maestría en Inteligencia Artificial — Visualización y Storytelling</p>
+        <p>Proyecto Final — Grupo 33</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>DataLytics 2026 &copy; Maestría en Inteligencia Artificial</p>
+  </footer>
+
+  <script src="js/charts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
