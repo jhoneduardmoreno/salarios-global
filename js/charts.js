@@ -23,7 +23,7 @@ const LAYOUT_BASE = {
   paper_bgcolor: 'rgba(0,0,0,0)',
   plot_bgcolor: 'rgba(0,0,0,0)',
   font: { family: 'Open Sans, sans-serif', color: COLORS.textMuted, size: 12 },
-  margin: { l: 60, r: 30, t: 40, b: 60 },
+  margin: { l: 80, r: 30, t: 40, b: 60 },
   xaxis: { gridcolor: COLORS.gridColor, zerolinecolor: COLORS.gridColor },
   yaxis: { gridcolor: COLORS.gridColor, zerolinecolor: COLORS.gridColor },
 };
@@ -107,7 +107,7 @@ function renderContinentes(data) {
     yaxis: {
       ...LAYOUT_BASE.yaxis,
       title: { text: 'Salario Promedio (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     xaxis: { ...LAYOUT_BASE.xaxis, tickangle: 0 },
   };
@@ -139,7 +139,7 @@ function renderEducacion(data) {
     xaxis: {
       ...LAYOUT_BASE.xaxis,
       title: { text: 'Salario Promedio (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     yaxis: { ...LAYOUT_BASE.yaxis, autorange: 'reversed' },
   };
@@ -197,7 +197,7 @@ function renderJerarquiaBarras(data) {
     yaxis: {
       ...LAYOUT_BASE.yaxis,
       title: { text: 'Salario Promedio (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     xaxis: { ...LAYOUT_BASE.xaxis, tickangle: -30 },
   };
@@ -232,7 +232,7 @@ function renderIndustrias(data) {
     xaxis: {
       ...LAYOUT_BASE.xaxis,
       title: { text: 'Salario Promedio (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     yaxis: { ...LAYOUT_BASE.yaxis, autorange: 'reversed' },
   };
@@ -266,7 +266,7 @@ function renderExperiencia(data) {
     yaxis: {
       ...LAYOUT_BASE.yaxis,
       title: { text: 'Salario Promedio (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     xaxis: { ...LAYOUT_BASE.xaxis, tickangle: -30 },
   };
@@ -311,7 +311,7 @@ function renderGenero(data) {
     yaxis: {
       ...LAYOUT_BASE.yaxis,
       title: { text: 'Salario (COP)', font: { size: 11 } },
-      tickformat: ',.0f',
+      tickformat: '.0s',
     },
     legend: {
       font: { color: COLORS.textMuted },
