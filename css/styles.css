@@ -152,11 +152,16 @@ body {
 }
 
 .hero-question {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  max-width: 600px;
-  margin: 0 auto 2.5rem;
-  font-style: italic;
+  max-width: 850px;
+  margin: 0 auto 1rem;
+  font-style: normal;
+  text-align: justify;
+}
+
+.hero-question:last-of-type {
+  margin-bottom: 2.5rem;
 }
 
 .hero-stats {
