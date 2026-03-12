@@ -154,7 +154,6 @@ body {
 .hero-question {
   font-size: 1rem;
   color: var(--text-muted);
-  max-width: 850px;
   margin: 0 auto 1rem;
   font-style: normal;
   text-align: justify;
@@ -417,6 +416,15 @@ body {
   .nav-links a {
     display: block;
     padding: 0.8rem 1rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+
+  .hero-question {
+    text-align: left;
+    font-size: 0.95rem;
   }
 
   .hero-stats {
